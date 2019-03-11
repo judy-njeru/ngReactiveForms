@@ -12,6 +12,10 @@ import { MatDividerModule, MatCardModule, MatSnackBarModule, MatButtonModule, Ma
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
+import { IndexComponent } from './index/index.component';
+import { PortalComponent } from './portal/portal.component';
+import { CreateAuctionComponent } from './create-auction/create-auction.component';
+import { AuctionsComponent } from './auctions/auctions.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { HomeComponent } from './home/home.component';
     LoginComponent,
     SignUpComponent,
     PageNotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    IndexComponent,
+    PortalComponent,
+    CreateAuctionComponent,
+    AuctionsComponent
   ],
   imports: [
     BrowserModule,
